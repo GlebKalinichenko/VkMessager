@@ -1,0 +1,3 @@
+//include ':app'
+include ':vksdk_library', ':app'
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FIO"
+        android:hint="@string/FIO"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="34sp"
+        android:textColor="?android:textColorTertiary"
+        app:met_baseColor="?android:colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="60"
+        app:met_primaryColor="?colorAccent"
+        app:met_singleLineEllipsis="true"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:hint="@string/city"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:textColor="?android:textColorTertiary"
+        app:met_baseColor="?android:colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="60"
+        app:met_primaryColor="?colorAccent"
+        app:met_singleLineEllipsis="true"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:hint="@string/country"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:textColor="?android:textColorTertiary"
+        app:met_baseColor="?android:colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="60"
+        app:met_primaryColor="?colorAccent"
+        app:met_singleLineEllipsis="true"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/university"
+        android:hint="@string/university"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:textColor="?android:textColorTertiary"
+        app:met_baseColor="?android:colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="60"
+        app:met_primaryColor="?colorAccent"
+        app:met_singleLineEllipsis="true"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/faculty"
+        android:hint="@string/faculty"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:textColor="?android:textColorTertiary"
+        app:met_baseColor="?android:colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="60"
+        app:met_primaryColor="?colorAccent"
+        app:met_singleLineEllipsis="true"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bDate"
+        android:hint="@string/bDate"
+        android:textCursorDrawable="@drawable/text_cursor_cyan"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:textColor="?android:textColorTertiary"
+        app:met_baseColor="?android:colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="60"
+        app:met_primaryColor="?colorAccent"
+        app:met_singleLineEllipsis="true"/>
+
+</LinearLayout>
